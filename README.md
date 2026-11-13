@@ -17,8 +17,8 @@ Agent Management makes the MCP server and the LLM available to the agent through
 
 | Component | Runs on | Path | Language |
 |---|---|---|---|
-| Products API | Integration, REST API, reachable only inside the project | `products-api/` | Ballerina 2201.13.1 |
-| Products MCP server | Integration, `mcp-server` | `products-mcp/` | Ballerina 2201.13.1 |
+| Products API | Integration, REST API, reachable only inside the project | `products-api/` | Ballerina 2201.14.1 |
+| Products MCP server | Integration, `mcp-server` | `products-mcp/` | Ballerina 2201.14.1 |
 | Customer Support Agent | Agent Management, platform-hosted chat agent | `agent/` | Python 3.11 |
 
 The store is Summit Outdoor, a fictional store. The catalog, stock and policies are mock data, and everything is
