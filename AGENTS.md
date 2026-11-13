@@ -28,4 +28,4 @@ When the agent is active, tell the user to open **Try It** in Agent Management a
 
 ## Code
 
-`products-api` and `products-mcp` are Ballerina 2201.13.1 (`bal build`, `bal run`). `agent` is Python 3.11 (`pip install -r requirements.txt`, `python main.py`). See `README.md` for local runs and every environment variable.
+`products-api` and `products-mcp` are Ballerina 2201.14.1 (`bal build`, `bal run`). `agent` is Python 3.11 (`pip install -r requirements.txt`, `python main.py`). See `README.md` for local runs and every environment variable.
