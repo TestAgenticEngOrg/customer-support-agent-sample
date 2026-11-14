@@ -1,7 +1,6 @@
 # Ballerina
-products-api/target/
-products-mcp/target/
-*/Dependencies.toml.bak
+target/
+**/Dependencies.toml.bak
 
 # Python
 __pycache__/
