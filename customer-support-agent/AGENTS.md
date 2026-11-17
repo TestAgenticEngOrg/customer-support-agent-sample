@@ -2,7 +2,7 @@
 
 A support agent for Summit Outdoor, a fictional outdoor gear store. Users ask about products, stock and store policies, and the agent answers with live product data through MCP tools. All data is read-only mock data.
 
-Before deploying, show the user what this sample is: the description and the architecture diagram (`docs/architecture.svg`, in this folder) from `README.md`.
+Before deploying, show the user what this sample is: the description and the architecture diagram (`docs/architecture-light.svg`, or `docs/architecture-dark.svg` on a dark background, in this folder) from `README.md`.
 
 Three components run in one project:
 
@@ -12,7 +12,7 @@ Customer Support Agent (Agent Management) ──▶ gateway (MCP proxy) ──�
 
 ## Deploy on WSO2 Cloud
 
-Deploy all three into the project that the user selected, to the Development environment, in this order. Repository: `https://github.com/TestAgenticEngOrg/customer-support-agent-sample`, branch `main`. The sample is in the `customer-support-agent` folder, so every path below starts with it.
+Deploy all three into the project that the user selected, to the Development environment, in this order. Repository: `https://github.com/TestAgenticEngOrg/customer-support-agent-sample`, branch `main`. The sample is in the `customer-support-agent` folder, so every path below starts with it. Use these values as they are. Don't ask the user for the repository, the branch or a folder.
 
 1. **Products API.** In Integration, create an integration named `products-api`: type REST API, path `customer-support-agent/products-api`, WSO2 Integrator runtime. Build it and deploy it.
 2. **Products MCP server.** Create an integration named `products-mcp`: type `mcp-server`, path `customer-support-agent/products-mcp`, WSO2 Integrator runtime, no environment variables. Build it after `products-api` is deployed, then connect it to the API before deploying it:

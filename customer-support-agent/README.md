@@ -3,7 +3,10 @@
 A support agent for a demo outdoor gear store. Users ask about products, stock and store policies, and the agent
 answers with live product data. It shows an AI agent, an MCP server and an API working together across WSO2 Cloud.
 
-![Customer Support Agent architecture](docs/architecture.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/architecture-dark.svg">
+  <img alt="Customer Support Agent architecture" src="docs/architecture-light.svg">
+</picture>
 
 **What gets deployed**
 
